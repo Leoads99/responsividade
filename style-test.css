@@ -1,0 +1,85 @@
+.topnav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img, .topnav {
+    width: 100px;
+    height: 100px;
+}
+.footer, .topnav {
+    width: 100%;
+    background-color: #363636;
+}
+
+.footer {
+    height: 300px;
+}
+
+
+
+.logo-text {
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   color: #fff;
+}
+
+
+
+
+h4 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.degrade {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.back {
+    width: 100%;
+    height: 560px;
+}
+
+
+.degrade {
+    width: 325px;
+    height: 436px;
+    bottom: 0;
+    margin: 28px auto auto;
+}
+.degrade-texto 
+.degrade-texto {
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.woman-card {
+    width: 260px;
+    height: 371px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 28px auto auto;
+}
+
+
+
+
+
