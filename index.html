@@ -1,64 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="PT_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/first.css" />
+    <link rel="stylesheet" href="/styles/second.css" />
+    <link rel="stylesheet" href="/styles/third.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Transistor - The Game</title>
+  </head>
 
-    <head>
-        <meta lang="pt_br">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/sorocabam/styles/style-test.css" type="text/css" media="all" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>SuperGiantsGames</title>
- </head>
-    <body>
+  <body>
+    <div class="barra-topo">
+      <img class="barra-logo" src="/images/img-3.png" alt="sword-logo" />
+      <p class="top-describe">SUPERGIANTGAMES</p>
+    </div>
+    <button id="button-up" class="button-top" style="display: block"></button>
+    <div class="tela-cima">
+      <div class="tela-degrade">
+        <img src="/images/woman-card.png" alt="woman-card" class="woman-card" />
+        <img
+          src="/objetos/pena-inclinada-esquerda1.png"
+          alt="pena-inclinada-esquerda"
+          class="pena-inclinada-esquerda"
+        />
+        <img
+          src="/objetos/pena-esquerda.png"
+          alt="pena-esquerda"
+          class="pena-esquerda"
+        />
+        <img
+          src="/objetos/pena-direita1.png"
+          alt="pena-direita"
+          class="pena-direita"
+        />
+        <img
+          src="/objetos/pena-deitada1.png"
+          alt="pena-deitada"
+          class="pena-deitada"
+        />
+      </div>
 
-   <div class="topnav">
-       <img class="logo-img" src="/sorocabam/images/img-3.png" alt="logo-topo">
-     <h4 class="logo-text">SUPERGIANTGAMES</h4>
+      <img src="/images/img-2.png" alt="background" class="background" />
+      <p class="principal-describe">TRANSISTOR - RED THE SINGER</p>
+      <p class="bottom-describe">
+        "Olha, o que quer que você esteja pensando, me faça um favor não solte."
+      </p>
+      <a href="#teste">
+        <button class="mouse">
+          <div class="rolagem-mouse">
+            <p class="traco-mouse">\</p>
+          </div>
+        </button>
+      </a>
     </div>
 
+    <div class="card-centro">
+      <div class="cartao">
+        <img src="/cards/Grant.png" alt="Grant" class="img-card" />
+        <p class="cartao-txt">
+          "A camerata foi apenas so dois no início,e suas fileiras nunca foram
+          destinadas a exceder um número a ser contado em uma mão."
+        </p>
+      </div>
 
-  
+      <div class="cartao">
+        <img src="/cards/Red.png" alt="Red" class="img-card" />
+        <p class="cartao-txt">
+          "Red, uma jovem cantora, entrou em posse do Transistor. Sendo a
+          poderosa espada falante. O grupo Possessores quer tanto ela quanto o
+          Transistor e está perseguindo implacavelmente a sua procura."
+        </p>
+      </div>
 
-  <div class="background-1">
-      <img class="back" src="/sorocabam/images/img-2.png" alt="Background">
-      <img class="woman-card" src="/sorocabam/images/woman-card.png" alt="woman">
-   
-            
-       <img class="degrade" src="/sorocabam/images/degrade.svg" alt="degrade-tela">
-    
-    <p class="degrade-texto">
-            TRANSISTOR - RED THE SINGER
-     </p>
-            <p class="degrade-texto-inferior">
-            "Olha o que quer que voc� esteja
-            pensando me fa�a um favor, n�o solte."
-            </p>
-       
+      <div class="cartao">
+        <img src="/cards/Sybil_2.png" alt="Sybil" class="img-card" />
+        <p class="cartao-txt">
+          "Sybil é descrita pelo Transistor como sendo os "olhos e ouvidos" da
+          Camerata."
+        </p>
+      </div>
     </div>
- </div>
 
-     <div class="texto-forms">
-	<h2>FORMUL�RIO</h2>
-     	<label for="texto"></label>
-	<p> Lorem ipsum dolor sit amet, consectur adipiscing elit, 
-	sed do eiusmod tempo incididunt ut labore et dolore magna alique. 
-	Ut enim minim venimam, quis nostrud exercitation ullamco 
-	laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="tela-abaixo">
+      <form class="formulario">
+        <h1 class="titulo-formulario">FORMULÁRIO</h1>
+        <p class="texto-formulario">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div class="primeiros-campos">
+          <input
+            class="first-campos"
+            name="nome"
+            placeholder="Nome"
+            required
+            type="text"
+          />
+          <input
+            class="first-campos"
+            name="email"
+            placeholder="Email"
+            required
+            type="email"
+          />
+        </div>
+        <div class="segundo-campo">
+          <input
+            class="message-campo"
+            name="mensagem"
+            type="text"
+            placeholder="Mensagem..."
+            required
+            type="text"
+          />
+        </div>
+        <button class="button-send" disabled>Enviar</button>
+      </form>
     </div>
-	
-     <div class="forms">
-
-	<label for="name">Nome</label>
-	<input type="text" id="name" name="name">
-
-	<label for="email">Email</label>
-	<input type="e-mail" id="email" name="email">
-
-          <span>
-	 <label for="caixa-texto">Mensagem</label>
-	<textarea name="textarea" rows="10" cols="50">Mensagem</textarea>
-         </span>
-
-     </div>
-	
-    </body>
+  </body>
 </html>
